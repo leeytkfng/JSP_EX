@@ -11,14 +11,13 @@
    <meta charset="UTF-8">
     <style>
         .header{
-            background: #000000;
-            color: #f1f1f1;
             padding: 10px 10px;
             display: flex; /* flex로 하기*/
             justify-content: space-between; /* 좌우 정렬*/
             align-items: center;
         }
         .logo{
+            margin-top : 5px;
             font-family: "Al Bayan", serif;
             font-size: 24px;
             font-weight: bold;
@@ -37,10 +36,6 @@
 <body class="container-fluid">
 <div class="header">
   <h1 class="logo"> My Web</h1>
-  <div class="nav">
-      <a href="pages/login.jsp">로그인</a>
-      <a href="pages/register.jsp">회원가입</a>
-  </div>
 </div>
 
 </body>

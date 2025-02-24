@@ -12,6 +12,9 @@
 <html>
 <head>
     <style>
+        .container-fluid{
+            background: #f1f1f1;
+        }
     </style>
     <title>Title</title>
 </head>

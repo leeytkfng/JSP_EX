@@ -13,7 +13,6 @@
         .footer {
             text-align: center;
             padding: 0;
-            background: #838080;
             position: fixed;
             bottom: 0;
             width: 100%;

@@ -29,17 +29,20 @@
      </thead>
     <tbody>
         <c:forEach var="post" items="${postList}">
-            <tr>
+            <tr class="clickable-row" data-href = "/post?id=${post.p_num}">
                 <td>${post.p_num}</td>
                 <td>${post.title}</td>
                 <td>${post.name}</td>
                 <td>${post.createdAt}</td>
             </tr>
         </c:forEach>
-
     </tbody>
 </table>
-<a href="pages/write.jsp" class="btn btn-primary mb-3">글쓰기</a>
+<a href="/write" class="btn btn-primary mb-3">글쓰기</a>
 
 </body>
 </html>
+
+<script>
+
+</script>
